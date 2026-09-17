@@ -1,0 +1,18 @@
+# Local tooling and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+# Data plugin local state and scraper caches
+.data-app-offline/
+html_cache/
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
